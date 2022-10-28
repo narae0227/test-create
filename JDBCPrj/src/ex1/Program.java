@@ -28,7 +28,7 @@ public class Program {
 			System.out.printf("id : %d, title : %s, writerid : %s, content : %s, regdate : %s, hit : %d\n", id, title, writerId, content, regDate, hit);
 		}
 		
-		rs.close();
+		rs.close(); 
 		st.close();
 		con.close();
 		
